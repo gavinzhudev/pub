@@ -1,4 +1,4 @@
 FROM debian:latest
-COPY sub/ss.txt /tmp
-RUN cat /tmp/ss.txt
+COPY sa/sb/sb.txt /tmp
+RUN cat /tmp/sb.txt
 CMD ["echo","hello world!"]
